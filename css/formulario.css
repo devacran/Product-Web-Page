@@ -1,0 +1,109 @@
+/* Aqui van las variables */
+:root{
+  --green-color: #7ACC2D;
+}
+/* Aqui terminan las variables */
+/* aqui importamos una fuente de google */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif, bold;}
+
+nav{
+  display: flex;
+  background-color:  var(--green-color);
+  padding: 10px;
+  color: #313337;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+
+}
+nav li{
+  padding-left: 10px;
+}
+nav li a{
+  color: #313337;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: white;
+}
+/* main section */
+
+.products{
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+}
+.product{
+  max-width: 300px;
+}
+.product_img{
+  text-align: center;
+
+}
+.products img{
+top: 327px;
+left: 232px;
+width: 230px;
+height: 230px;
+}
+.product_description{
+  padding: 20px;
+}
+.product_form{
+  width: 200px;
+  align-items: center;
+  box-shadow: 0 0 5px lightgray;
+  padding: 5px;
+}
+.form_button{
+  background-color: #7ACC2D;
+  color: white;
+  height: 20px;
+  width: 100%;
+  border-radius: 3px;
+  text-align: center;
+}
+.product_form_item {
+  padding: 2px;
+}
+.product_form_field{
+  padding: 2px;
+width: 97%;
+}
+.form_button:hover{
+  background-color: #6db529;
+  cursor: pointer;
+}
+.form{
+  align-self: center;
+}
+/* .products_item{
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  align-items: center;
+
+} */
+
+
+/* footer section */
+.footer_content{
+  height: 60px;
+  background: #313337 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 10px;
+
+}

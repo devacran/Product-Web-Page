@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+  .products{
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding: 5%;
+    display: inherit;
+  }
+  .product .content{
+    padding: 10px;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: -20px;
+    box-shadow: 0 0 3px 1px #a9a9a9;
+    border-radius: 5px;
+  }
+  .recomended_product{
+    margin-top: 200px;
+    display: inherit;
+    padding: 5%;
+    text-align: center;
+    justify-content: center;
+
+  }
+  .recomended_product_images{
+    size: 5px;
+    text-align: center;
+  }
+  .mentions{
+    display: inherit;
+    padding: 5%;
+  }
+}

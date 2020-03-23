@@ -1,0 +1,61 @@
+:root{
+  --green-color: #7ACC2D;
+}
+/* Aqui terminan las variables */
+/* aqui importamos una fuente de google */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif, bold;}
+
+label{
+  font-size: 12px;
+}
+nav{
+  display: flex;
+  background-color:  var(--green-color);
+  padding: 10px;
+  color: #313337;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+
+}
+nav li{
+  padding-left: 10px;
+}
+nav li a{
+  color: #313337;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: white;
+}
+/* main section */
+.faqs{
+  padding: 8%;
+}
+
+/* footer section */
+.footer_content{
+  height: 60px;
+  background: #313337 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 10px;
+
+}
+.contact a{
+  color: var(--green-color);
+  text-decoration: none;
+}
